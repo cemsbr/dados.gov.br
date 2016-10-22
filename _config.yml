@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Análises reprodutíveis de dados do governo brasileiro. Aprenda mais sobre
   política, Python e aprendizagem de máquina (machine learning).
 baseurl: "/dados.gov.br" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://cemsbr.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: cemsbr
 github_username:  cemsbr
 
@@ -31,3 +31,6 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+disqus:
+    shortname: cemsbr-dados-gov-br
