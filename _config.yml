@@ -13,16 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@domain.com
+title: Investigando Dados Abertos do Governo Brasileiro
+email: "&#099;&#101;&#109;&#115;&#064;&#099;&#101;&#109;&#115;&#104;&#111;&#115;&#116;&#046;&#099;&#111;&#109;&#046;&#098;&#114;"
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Análises reprodutíveis de dados do governo brasileiro. Aprenda mais sobre
+  política, Python e aprendizagem de máquina (machine learning).
 baseurl: "/dados.gov.br" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: cemsbr
+github_username:  cemsbr
 
 # Build settings
 markdown: kramdown
