@@ -19,6 +19,7 @@ ser realizada com centenas de milhares de gastos. Em seguida, usa-se
 aprendizagem de máquina para destacar os gastos mais incomuns.
 
 Para visualizar a análise, acesse [Outliers no GitHub][outliers]. Se você
-estiver no celular, clique em *Desktop version* no final da página.
+estiver no celular, clique em *Desktop version* no final da página. Deixe
+sugestões e críticas nos comentários.
 
 [outliers]: https://github.com/cemsbr/dados.gov.br/blob/master/Outliers.ipynb
