@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Investigando Dados Abertos do Governo Brasileiro</title>
-  <meta name="description" content="Análises reprodutíveis de dados do governo brasileiro. Aprenda mais sobre política, Python e aprendizagem de máquina (machine learning).">
+  <title>Cota Parlamentar</title>
+  <meta name="description" content="Sabia que os deputados ganham, além do salário, entre cerca de 30 e 45 mil reais mensais para exercerem suas atividades parlamentares? É a chamada Cota para ...">
 
   <link rel="stylesheet" href="/dados.gov.br/assets/main.css">
-  <link rel="canonical" href="https://cemsbr.github.io/dados.gov.br/">
+  <link rel="canonical" href="https://cemsbr.github.io/dados.gov.br/cotaparlamentar/2016/10/22/cota-parlamentar.html">
   <link rel="alternate" type="application/rss+xml" title="Investigando Dados Abertos do Governo Brasileiro" href="/dados.gov.br/feed.xml">
   
   
@@ -58,28 +58,58 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Cota Parlamentar</h1>
+    <p class="post-meta"><time datetime="2016-10-22T14:10:03-02:00" itemprop="datePublished">Oct 22, 2016</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>Sabia que os deputados ganham, além do salário, entre cerca de 30 e 45 mil reais
+mensais para exercerem suas atividades parlamentares? É a chamada Cota para
+Exercício da Atividade Parlamentar.</p>
+
+<p>Nos dados abertos do governo, encontramos os pagamentos feitos pelos deputados
+através dessa cota. No ano de 2015, por exemplo, foram cerca de 370 mil
+pagamentos com até 29 informações sobre cada um deles. Em uma planilha, seriam
+mais de 10 milhões de células!</p>
+
+<p>A análise dos gastos de 2015 inicia com uma abordagem intuitiva, mas difícil de
+ser realizada com centenas de milhares de gastos. Em seguida, usa-se
+aprendizagem de máquina para destacar os gastos mais incomuns.</p>
+
+<p>Para visualizar a análise, acesse <a href="https://github.com/cemsbr/dados.gov.br/blob/master/Outliers.ipynb">Outliers no GitHub</a>. Se você
+estiver no celular, clique em <em>Desktop version</em> no final da página.</p>
+
+
+  </div>
+
   
+    
   
 
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'https://cemsbr.github.io/dados.gov.br/cotaparlamentar/2016/10/22/cota-parlamentar.html';
+      this.page.identifier = 'https://cemsbr.github.io/dados.gov.br/cotaparlamentar/2016/10/22/cota-parlamentar.html';
+    };
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Oct 22, 2016</span>
+    (function() {
+      var d = document, s = d.createElement('script');
 
-        <h2>
-          <a class="post-link" href="/dados.gov.br/cotaparlamentar/2016/10/22/cota-parlamentar.html">Cota Parlamentar</a>
-        </h2>
-      </li>
-    
-  </ul>
+      s.src = 'https://cemsbr-dados-gov-br.disqus.com/embed.js';
 
-  <p class="rss-subscribe">subscribe <a href="/dados.gov.br/feed.xml">via RSS</a></p>
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 
-</div>
+
+  
+</article>
 
       </div>
     </main>
