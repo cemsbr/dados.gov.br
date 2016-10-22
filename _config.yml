@@ -34,3 +34,5 @@ exclude:
 
 disqus:
     shortname: cemsbr-dados-gov-br
+
+google_analytics: UA-86123067-1
