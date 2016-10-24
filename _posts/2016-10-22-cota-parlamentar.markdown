@@ -18,8 +18,9 @@ A análise dos gastos de 2015 inicia com uma abordagem intuitiva, mas difícil d
 ser realizada com centenas de milhares de gastos. Em seguida, usa-se
 aprendizagem de máquina para destacar os gastos mais incomuns.
 
-Para visualizar a análise, acesse [Outliers no GitHub][outliers]. Se você
-estiver no celular, clique em *Desktop version* no final da página. Deixe
-sugestões e críticas nos comentários.
+Antes de clicar no link, saiba que, **caso esteja no celular, clique em
+_Desktop version_ no final do link**. Caso contrário, verá apenas código sem
+sentido. Sabendo disso, visite [Outliers no GitHub][outliers]. Deixe críticas
+e sugestões para próximos posts nos comentários.
 
 [outliers]: https://github.com/cemsbr/dados.gov.br/blob/master/Outliers.ipynb
